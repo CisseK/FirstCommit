@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="DevOps and cloud native explained by people who are learning it. Guides and blog posts for beginners, written by beginners." />
-  <title>First PR Lab — DevOps for Beginners</title>
+  <meta name="description" content="A community blog for people learning DevOps and cloud native. Guides and posts written by beginners, for beginners." />
+  <title>First PR Lab</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -25,93 +25,82 @@
 
   <section class="hero">
     <div class="container">
-      <p class="hero-label">Open source learning lab</p>
       <h1 class="hero-title">DevOps, explained by people learning it.</h1>
-      <p class="hero-sub">
-        Guides and blog posts written by contributors — beginners explaining things to other beginners, in plain English.
-        Everything here started as someone's first open source pull request.
+      <p class="hero-body">
+        A community blog run by <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true" target="_blank" rel="noopener">Ayush</a>.
+        Every guide and post here was written by someone who just figured something out and wanted to share it —
+        beginners writing for beginners, in plain English.
       </p>
-      <div class="hero-actions">
-        <a href="https://github.com/Ayushmore1214/First_Pr_lab/blob/main/CONTRIBUTING.md" class="btn-primary" target="_blank" rel="noopener">Start contributing</a>
-        <a href="#guides" class="btn-secondary">Read the guides</a>
-      </div>
+      <p class="hero-body">
+        It's also an open source learning lab. If you want to contribute your first ever pull request,
+        <a href="https://github.com/Ayushmore1214/First_Pr_lab/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">here's how it works.</a>
+      </p>
     </div>
   </section>
 
   <main class="container main-content">
 
     <section id="guides" class="content-section">
-      <div class="section-header">
-        <h2 class="section-title">Guides</h2>
-        <p class="section-desc">Step-by-step walkthroughs for tools and concepts you'll encounter in DevOps.</p>
-      </div>
-      <div class="post-grid">
+      <h2 class="section-title">Guides</h2>
 
-        <a href="guides/first-open-source-pr.html" class="post-card">
-          <span class="post-tag">Getting Started</span>
-          <h3 class="post-title">How to open your first pull request (and not panic)</h3>
-          <p class="post-excerpt">A real walkthrough — forking, cloning, branching, committing. Every command written out. No assumed knowledge.</p>
-          <span class="post-meta">by Ayush · 8 min read</span>
+      <div class="post-list">
+
+        <a href="guides/first-open-source-pr.html" class="post-row">
+          <span class="post-category">Getting Started</span>
+          <span class="post-title">How to open your first pull request (and not panic)</span>
+          <span class="post-excerpt">A real walkthrough — forking, cloning, branching, committing. Every command written out. No assumed knowledge.</span>
+          <span class="post-byline">Ayush &nbsp;·&nbsp; 8 min read</span>
         </a>
 
-        <a href="guides/what-is-a-container.html" class="post-card">
-          <span class="post-tag">Containers</span>
-          <h3 class="post-title">What is a container, actually?</h3>
-          <p class="post-excerpt">Not the shipping metaphor. An actual explanation of what Docker does and why it exists, starting from zero.</p>
-          <span class="post-meta">by Ayush · 6 min read</span>
-        </a>
-
-        <a href="guides/_template.html" class="post-card post-card--contribute">
-          <span class="post-tag contribute-tag">Your guide goes here</span>
-          <h3 class="post-title">Write a guide on something you just learned</h3>
-          <p class="post-excerpt">Copy <code>src/guides/_template.html</code>, write your guide, open a PR. It's really that simple.</p>
-          <span class="post-meta">→ see how to contribute</span>
+        <a href="guides/what-is-a-container.html" class="post-row">
+          <span class="post-category">Containers</span>
+          <span class="post-title">What is a container, actually?</span>
+          <span class="post-excerpt">Not the shipping metaphor. An actual explanation of what Docker does and why it exists, starting from zero.</span>
+          <span class="post-byline">Ayush &nbsp;·&nbsp; 6 min read</span>
         </a>
 
       </div>
+
+      <p class="contribute-invite">
+        Got something to add? Copy <code>src/guides/_template.html</code> and <a href="https://github.com/Ayushmore1214/First_Pr_lab/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">open a PR.</a>
+      </p>
     </section>
 
     <section id="blog" class="content-section">
-      <div class="section-header">
-        <h2 class="section-title">Blog</h2>
-        <p class="section-desc">Personal posts from contributors — what they're learning, what confused them, what finally clicked.</p>
-      </div>
-      <div class="post-grid">
+      <h2 class="section-title">Blog</h2>
 
-        <a href="blog/what-is-kubernetes.html" class="post-card">
-          <span class="post-tag">Kubernetes</span>
-          <h3 class="post-title">Kubernetes for people who've never heard of it</h3>
-          <p class="post-excerpt">I spent three weeks confused about what Kubernetes actually does. Here's the explanation I wish I'd had from the start.</p>
-          <span class="post-meta">by Ayush · 5 min read</span>
+      <div class="post-list">
+
+        <a href="blog/what-is-kubernetes.html" class="post-row">
+          <span class="post-category">Kubernetes</span>
+          <span class="post-title">Kubernetes for people who've never heard of it</span>
+          <span class="post-excerpt">I spent three weeks confused about what Kubernetes actually does. Here's the explanation I wish I had from the start.</span>
+          <span class="post-byline">Ayush &nbsp;·&nbsp; 5 min read</span>
         </a>
 
-        <a href="blog/docker-made-simple.html" class="post-card">
-          <span class="post-tag">Docker</span>
-          <h3 class="post-title">Docker made simple: what containers actually are</h3>
-          <p class="post-excerpt">Everyone says "it works on my machine." Docker is how we stop saying that. Here's what it actually means.</p>
-          <span class="post-meta">by Ayush · 4 min read</span>
-        </a>
-
-        <a href="blog/_template.html" class="post-card post-card--contribute">
-          <span class="post-tag contribute-tag">Your post goes here</span>
-          <h3 class="post-title">Write about something DevOps-related you recently learned</h3>
-          <p class="post-excerpt">Copy <code>src/blog/_template.html</code>, write your post, open a PR. No experience required — that's kind of the point.</p>
-          <span class="post-meta">→ see how to contribute</span>
+        <a href="blog/docker-made-simple.html" class="post-row">
+          <span class="post-category">Docker</span>
+          <span class="post-title">Docker made simple: what containers actually are</span>
+          <span class="post-excerpt">Everyone says "it works on my machine." Docker is how we stop saying that. Here's what it actually means.</span>
+          <span class="post-byline">Ayush &nbsp;·&nbsp; 4 min read</span>
         </a>
 
       </div>
+
+      <p class="contribute-invite">
+        Wrote something lately? Copy <code>src/blog/_template.html</code> and <a href="https://github.com/Ayushmore1214/First_Pr_lab/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">open a PR.</a> No experience needed — that's kind of the point.
+      </p>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
+    <div class="container">
       <p>
-        Built by <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true" target="_blank" rel="noopener">Ayush</a>
-        as an open source learning lab.
-        <a href="https://github.com/Ayushmore1214/First_Pr_lab" target="_blank" rel="noopener">Contribute on GitHub.</a>
+        Made by <a href="https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true" target="_blank" rel="noopener">Ayush</a>.
+        If you get stuck contributing, reach out — there's a real person on the other side.
+        <a href="https://github.com/Ayushmore1214/First_Pr_lab" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; MIT License.
       </p>
-      <p class="footer-license">MIT License &mdash; plain HTML, CSS, and a little JavaScript.</p>
     </div>
   </footer>
 
