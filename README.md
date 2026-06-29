@@ -16,6 +16,14 @@ src/
   styles.css   all the styling
   main.js      search, filter, dark mode, keyboard shortcuts
 
+docs/
+  what-is-open-source.md
+  what-is-a-fork.md
+  what-is-a-branch.md
+  what-is-a-pull-request.md
+  understanding-github-issues.md
+  writing-good-commit-messages.md
+
 .github/
   workflows/   4 automated checks run on every PR
 
