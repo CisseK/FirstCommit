@@ -6,7 +6,19 @@ You do not need to set any of this up yourself. It all runs automatically the mo
 
 ---
 
-## The four workflows
+## The five workflows
+
+### `deploy.yml` - Deploy to GitHub Pages
+
+**What it does:** Every time a commit is pushed to `main`, this workflow takes everything inside the `src/` folder and publishes it to GitHub Pages at `https://ayushmore1214.github.io/First_Pr_lab/`. The live site updates automatically within a minute or two of a PR being merged.
+
+**Why it exists:** Real projects ship. Contributors here are not just editing files locally - their changes go live. Every person who gets a PR merged can point to the live site and say their work is on it.
+
+**Can also be triggered manually:** Maintainers can run this workflow from the Actions tab without pushing a commit, using the "Run workflow" button. This is called `workflow_dispatch` in the YAML.
+
+**Nothing to do here.** It runs on every push to `main` automatically.
+
+---
 
 ### `dco-check.yml` - Developer Certificate of Origin
 
