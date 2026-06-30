@@ -62,6 +62,20 @@ If multiple commits need it, see the "Common Errors" section in [CONTRIBUTING.md
 
 ---
 
+### `stale.yml` - Stale Issue and PR Management
+
+**What it does:** Runs every day at midnight UTC. Any issue with no activity for 30 days gets a comment warning that it will be closed in 7 days. Any PR with no activity for 14 days gets the same warning. If there is still no activity after the warning period, it is closed automatically.
+
+**Why it exists:** Open source projects accumulate stale issues fast. Someone claims an issue, goes quiet, and the issue sits there for months blocking others from picking it up. The stale bot keeps the Issues tab clean and honest. It is not punishing anyone - it is just reflecting reality.
+
+**What happens if your issue gets marked stale:** Leave any comment - "still working on it" is enough. The stale label is removed and the timer resets. If you need more time, just say so.
+
+**What is exempt:** Issues labeled `intro` or `pinned` are never marked stale. The START HERE issue and intro PR issues stay open regardless.
+
+**Nothing to do here.** It runs automatically on a daily schedule.
+
+---
+
 ## What the checks look like on your PR
 
 After you open a PR, scroll to the bottom of the PR page. You will see a section titled "Checks" with a list like this:
