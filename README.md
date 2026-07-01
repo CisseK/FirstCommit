@@ -125,12 +125,12 @@ Your name goes here after your intro PR is merged. No minimum experience. No max
 
 ## Share it
 
-If this helped you land your first contribution, share it on LinkedIn and tag [Ayush](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true). Every post helps the next person find the video and the lab. Real human on the other end, reads every one.
+If this helped you land your first contribution, share it on LinkedIn and tag [Ayush](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true). Every post helps the next person find the video and the lab.
 
 And if you want to say thanks in two seconds flat - the star button is right at the top.
 
 ## Questions
 
-Stuck at any step - reach out to Ayush on [LinkedIn](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true). Real responses, not a bot.
+Stuck at any step - reach out to Ayush on [LinkedIn](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true).
 
 [MIT License](LICENSE).
