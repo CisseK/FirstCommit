@@ -1,10 +1,3 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncf/artwork/main/other/cncf/horizontal/white/cncf-white.svg" width="320">
-    <img src="https://raw.githubusercontent.com/cncf/artwork/main/other/cncf/horizontal/color/cncf-color.svg" width="320" alt="CNCF" />
-  </picture>
-</p>
-
 <h1 align="center">First PR Lab</h1>
 
 <p align="center">
@@ -27,6 +20,13 @@
   <a href="https://github.com/Ayushmore1214/First_Pr_lab/stargazers"><img src="https://img.shields.io/github/stars/Ayushmore1214/First_Pr_lab" alt="Stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
   <img src="https://img.shields.io/badge/Hacktoberfest-friendly-orange" alt="Hacktoberfest friendly" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncf/artwork/main/other/cncf/horizontal/white/cncf-white.svg" width="260">
+    <img src="https://raw.githubusercontent.com/cncf/artwork/main/other/cncf/horizontal/color/cncf-color.svg" width="260" alt="CNCF" />
+  </picture>
 </p>
 
 ---
