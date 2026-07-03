@@ -126,7 +126,7 @@ Your name goes here after your intro PR is merged. No minimum experience. No max
 
 ## Share it
 
-If this helped you land your first contribution, share it on LinkedIn and tag [Ayush](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true). Every post helps the next person find the video and the lab.
+If this helped you land your first contribution, share it on LinkedIn and tag [Ayush](https://www.linkedin.com/in/ayush-more-3b4154341/?skipRedirect=true). Every post helps the next person find the video and the lab. Check out the [announcement post](https://www.linkedin.com/posts/ayush-more-3b4154341_opensource-opensource101-cncf-activity-7478769437794496512-KXBh) and feel free to repost or comment.
 
 And if you want to say thanks in two seconds flat - hit the ⭐ star button at the top of the page.
 
