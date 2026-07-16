@@ -12,7 +12,7 @@ Your name goes here the moment your intro PR is merged. Welcome to the community
 3. Add a row to the table below using this format:
 
 ```markdown
-| Your Full Name | [@your-github-username](https://github.com/your-github-username) | [LinkedIn](https://linkedin.com/in/your-profile) |
+| Mariam Cisse| [CisseK](https://github.com/CisseK) | [LinkedIn](www.linkedin.com/in/mariam-cisse-79b65111a) |
 ```
 
 ---
